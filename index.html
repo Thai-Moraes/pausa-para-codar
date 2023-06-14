@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="_css/index.css">
+    <link rel="icon" href="_imagens/favicon.png">
+</head>
+<body>
+
+<div id="interface">
+    <img id="icone" src="_imagens/pausacodar.png">
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Pausa para Codar</h1>
+            <h2>O seu site preferido sobre o mundo de TI!</h2>
+        </hgroup>
+
+        <nav id="menu">
+            <ul>
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="index.html#anchor-sobre"> Sobre </a></li>
+                <li> <a href="index.html#anchor-contato"> Fale Conosco </a></li>
+                <li id="prof"> <a href="data-scientist.html"> Cientista de Dados </a></li>
+                <li id="prof"> <a href="ai.html"> Engenheiro de IA </a></li>
+                <li id="prof"> <a href="robotics.html"> Engenheiro de Robótica </a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <section id="corpo">
+        <figure class="foto-legenda">
+                <!-- Tag de imagem -->
+              <img id="codigo" src="_imagens/programming.jpeg" >
+            </figure>
+        <h3>Sobre o Site</h3>
+        <p>
+            A área de TI, ou tecnologia da informação, é um tipo de saber relacionado aos conhecimentos na área da informática e engloba departamentos como desenvolvimento e implantação de sistemas, controle e até mesmo consultoria em temáticas tecnológicas.
+        </p>
+
+            <p>
+        Por conta disso, o mercado de TI é o que mais crece no mundo moderno. Talvez você não saiba, mas esse mercado movimenta mais de 80 bilhões de doláres por ano. Não importa seus interesses, existe uma área de TI perfeita para você. No "Pausa para Codar", mostramos as facetas da tecnologia: o bom, o ruim e o feio. Todo o mês esse site será modificado para representar isso, com conteúdos novos na página "Home" que falaram sobre as notícias mais fresquinhas do mundo tecnológico.
+        </p>
+
+        <p>
+            O mercado de trabalho para áreas de tecnologia está em significativo crescimento, com uma carência expressiva de profissionais aptos a se desenvolverem e apresentarem as habilidades necessárias. As vagas para profissionais da tecnologia podem ser encontradas em todo o território nacional, com regimes que vão desde a modalidade presencial ao home office. De maneira geral, esse é um campo que, quando comparado a outros conhecimentos, não exige a realização de uma educação formal.
+
+        </p>
+
+            <p>
+            Assim, todo fim de mês 3 novas profissões são colocadas no nosso menu para você experimentar e conhecer carreiras novas que você possivelmente nunca havia pensando antes, muitas só precisando apenas do diploma de ensino médio concluído. Nessas páginas, terá a descrição geral da profissão, conhecimentos necessários, nível hierárquico e o salário médio oferecido em todo o território nacional - com excessão de profissões nichadas no Brasil, ao qual usaremos dados internacionais.
+        </p>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UfuSVItLKEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <p>
+        No vídeo acima, possui um guia simples para começar na área de TI. Recomendamos vê-lo antes de continuar a navegar nesse site, já que ele será como um motivador para a sua jornada em busca do primeiro emprego. Caso ainda tenha dúvidas em relação se essa é a área para você, assista a esse <a href="https://youtu.be/Rw-RdWPyX7s">outro vídeo</a>, que trata sobre a questão de se programação é para ti ou não. Se você possui o mínimo de interesse em tecnologia, não deixe que suas inseguranças o impeça de estudar sobre.
+        </p>
+
+    </section>
+
+    <h3 id="anchor-sobre">Sobre a Autora</h3>
+    <section id="sobre">
+            <p>
+            Eu sempre tive interesse em computadores desde que eu era criança. Ver que quando eu digitava no teclado aparecia na tela a tecla correspondente era como se fosse mágica para mim. Hoje em dia, essa magia continua quando digito códigos. Mesmo com as frustações e temores, eu sei que se eu persistir vai dar certo.
+            </p>
+            <p>
+                Meu objetivo é me formar em uma boa universidade e melhorar minha programação ao ponto de criar um projeto de robô funcional. Minha linguagem de programação favorita é C++, mas também gosto de mexer em Python e C.
+            </p>
+
+    </section>
+
+        <img id="autora" src="_imagens/capi.png">
+    <h5><i>Foto real e oficial da autora, confia</i></h5>
+
+    <div style="clear:both;"></div>
+
+    <h3 id="anchor-contato">Fale Conosco</h3>
+
+    <p>
+        Caso você tenha alguma dúvida, sugestão ou coisa do tipo, é só você preencher o formulário que responderemos o mais rápido possível. <br>
+    </p>
+
+    <section id="contato">
+
+    </section>
+    <form method="post" id="idContato" action="mailto:thaissa.linguika@gmail.com" oninput="calc_total();">
+
+            <fieldset id="idUsuario">
+
+                <legend>Identificação do Usuário</legend>
+                <p> <label for="idNome">Nome <input type="text" name="nNome" id="idNome" size="20" maxlength="40" placeholder="Nome Completo"></label> </p>
+                <p> <label for="idSenha">Senha <input type="password" name="nSenha" id="idSenha" size="8" maxlength="8" placeholder="até 8 dígitos"> </label> </p>
+                <p> <label for="idEmail">E-mail <input type="email" name="nEmail" id="idEmail" size="20" maxlength="40"> </label> </p>
+                <fieldset id="idObjetivo">
+                    <legend>O que deseja fazer?</legend>
+                    <input type="radio" name="nObjetivo" id="idDuv" checked> <label for="idDuv"> Dúvida, bug, sugestões etc </label><br>
+                    <input type="radio" name="nObjetivo" id="idAjud"> <label for="idAjud"> Colaborar </label>
+                </fieldset>
+                <fieldset id="idSexo">
+                    <legend>Sexo</legend>
+                    <input type="radio" name="nSexo" id="idMasc" checked> <label for="idMasc"> Masculino </label><br>
+                    <input type="radio" name="nSexo" id="idFem"> <label for="idFem"> Feminino </label>
+                </fieldset>
+                <p> <label for="idNasc"> Data de Nascimento</label><input type="date" name="nNasc" id="idNasc"></p>
+            </fieldset>
+
+        <fieldset id="idMensagem">
+                <legend>Mensagem do Usuário</legend>
+                <p><label for="idUrg"> Grau de Urgência  </label> Min <input type="range" name="nUrg" id="idUrg" min="0" max="10" step="2"> Max </p>
+                <p> <label for="idMsg">Mensagem </label>
+                    <textarea name="nMsg" id="idMsg" cols="45" rows="9" maxlength="250" placeholder="Deixe aqui sua sugestão, dúvida, erro ou o motivo de você querer colaborar com o projeto."></textarea>
+                </p>
+            </fieldset>
+
+        <input id="botao" type="image" src="_imagens/botao-enviar.png" name="nEnviar">
+    </form>
+
+
+    <footer id="rodape">
+        <p>Copyright 2023 por Thaissa Moraes Gouvea<br>
+           <a href="https://www.bing.com/ck/a?!&&p=2d5afdfa1f58fc0fJmltdHM9MTY4NjUyODAwMCZpZ3VpZD0xY2E2ZWZmNS1kODdmLTY0MmUtMWMxMC1mZDRjZDliMTY1Y2UmaW5zaWQ9NTU1Mg&ptn=3&hsh=3&fclid=1ca6eff5-d87f-642e-1c10-fd4cd9b165ce&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9bmV2ZXIrZ29ubmErZ2l2ZSt5b3UrdXAmbWlkPUQ0NDdDMEM2RDI2RUVCOTM5MzE0RDQ0N0MwQzZEMjZFRUI5MzkzMTQ&ntb=1" target="_blank"> Youtube </a>
+        </p>
+
+</div>
+
+</body>
+</html>

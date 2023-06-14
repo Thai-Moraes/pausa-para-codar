@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CE7EDE; /* cinza claro */
+}
+
+div#interface {
+    position: relative; /* transforma a div em um container */
+    background-color: #fff;
+    width: 1100px;
+    margin: -20px auto 0px auto; /* auto = automático */
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+    padding: 10px; /* espaçamento interno da div */
+    }
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 13pt;
+}
+
+hgroup {
+    position: absolute;
+    top: 5px;
+    left: 300px;
+}
+
+img#codigo {
+    display: block;
+    width: 109.90%;
+    margin-left: -50px;
+}
+
+img#icone {
+    width: 100px;
+}
+
+header#cabecalho {
+    height: 80px;
+    margin-bottom: -16px;
+}
+
+nav#menu ul {
+    list-style: none; /* estilo de lista: nenhum, ou seja, sem bolinha */
+    text-transform: uppercase; /* tudo maiuscula */ /* para que o menu possa ser colocado no topo, a posição tem que ser ABSOLUTA */
+    top: -5px; /* posicionado ao topo, negativo para comer mais a margem */
+    right: 25px;
+}
+
+
+nav#menu li#prof {
+    background-color: #DD7FB4;
+}
+
+nav#menu li {
+    display: inline-block; /* coloca os itens lado a lado */
+    font-weight: bolder;
+    background-color: #b4dd7f; /* muda cor do fundo */
+    border: 2px black solid;
+    padding: 10px; /* aumentar o espacamento interno da caixa cinza */
+    margin: 2px; /* margem, espaço, espaçamento externo */
+    transition: background-color 0.5s; /* tempo da transição do background color */
+}
+
+nav#menu a {
+    text-decoration: none; /* decoração do texto - nenhuma */
+    color: #000;
+}
+
+nav#menu a:hover {
+    text-decoration: underline; /* sublinhado */
+}
+
+h3 {
+    background-color: #b4dd7f;
+    padding: 10px;
+}
+
+h3#prof {
+    background-color: #DD7FB4;
+}
+
+h1 {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#sobre {
+    display: block;
+    width: 500px;
+    float: left;
+    padding-left: 30px;
+}
+h5, h6 {
+   text-align: center;
+}
+
+section#contato {
+    float: center;
+    padding-left: 30px;
+}
+
+
+img#autora {
+    width: 300px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+form {
+    width: 600px; /* largura */
+    margin: auto; /* centralizar */
+}
+
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    margin-top: 20px
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.7); /* branco com opacidade 70% */
+}
+
+fieldset {
+    border-color: black;/* cinza claro */
+    margin: 20px;
+}
+
+input#botao {
+    width: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
